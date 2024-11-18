@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Quiz</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="quiz-container container">
+        <div class="col-sm-4">
+        </div>
+        <h2>Car Quiz</h2>
+        <div id="quiz" class="col-sm-8"></div>
+            <div class="question-container">
+                <p class="question">1.Which company founded by Henry Ford is one of the largest automobile manufacturers in the world?</p>
+                <ul class="options">
+                    <li><input type="radio" name="q1" value="a"> a) Ford</li>
+                    <li><input type="radio" name="q1" value="b"> b) General Motors</li>
+                    <li><input type="radio" name="q1" value="c"> c) Chrysler</li>
+                    <li><input type="radio" name="q1" value="d"> d) Toyoto</li>
+                </ul>
+            </div>
+            <div class="question-container">
+                <p class="question">2. What is the most popular electric car model produced by Tesla?</p>
+                <ul class="options">
+                    <li><input type="radio" name="q2" value="a"> a) Model S</li>
+                    <li><input type="radio" name="q2" value="b"> b) Model 3</li>
+                    <li><input type="radio" name="q2" value="c"> c) Model X</li>
+                    <li><input type="radio" name="q2" value="d"> d) Model Y</li>
+                </ul>
+            </div>
+            <div class="question-container">
+                <p class="question">3.  Which German luxury car brand is known for its logo featuring a three-pointed star?</p>
+                <ul class="options">
+                    <li><input type="radio" name="q3" value="a"> a) Mercedes-Benz</li>
+                    <li><input type="radio" name="q3" value="b"> b) BMW</li>
+                    <li><input type="radio" name="q3" value="c"> c) Audi</li>
+                    <li><input type="radio" name="q3" value="d"> d) Volkswagen</li>
+                </ul>
+            </div>
+            <div class="question-container">
+                <p class="question">4. What is the name of the popular SUV model produced by Honda?</p>
+                <ul class="options">
+                    <li><input type="radio" name="q4" value="a"> a)  CR-V</li>
+                    <li><input type="radio" name="q4" value="b"> b) Pilot</li>
+                    <li><input type="radio" name="q4" value="c"> c) Passport</li>
+                    <li><input type="radio" name="q4" value="d"> d) Odyssey</li>
+                </ul>
+            </div>
+            <button class="submit-btn" onclick="submitQuiz()">Submit</button>
+            <div class="result" id="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
